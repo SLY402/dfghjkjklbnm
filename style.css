@@ -1,0 +1,241 @@
+/* p{
+display: inline-block;
+border: 20px solid hsl(185, 8%, 28%);
+margin: 20px;
+padding: 20px;
+}
+span{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+} */
+/* p.content{
+ color: hsl(327, 19%, 9%);
+}
+#peace{
+    background-color: #e9baba;
+    margin: 20px;
+    border-left: 2px solid lawngreen;
+}
+.mod{
+    border: 5px dotted black;
+}
+a[href="http//www.ofsly.com"]{
+ background-color: pink;
+}
+a[href*="joy"]{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: beige;
+    background-color: purple;
+} */
+
+/* div{
+    color: #00ffff97;
+    border: 1px solid chocolate;
+    margin: 20;
+    background-color: hsl(320, 5%, 12%);
+    
+    
+}  */
+header{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+color: white;
+border: 8px solid white;
+padding: 6px 8px;
+display: inline-block;
+border-radius: 36px;
+}
+ .banner{
+    position: relative;
+ }
+ .banner img{
+    max-width: 100%;
+ }
+ .banner .welcome{
+    background-color: #ffa500;
+    color: white;
+    padding: 30px;
+    position: absolute; 
+    left: 0;
+    top: 30%  
+   }
+ .banner h2{
+    font-size: 50px;
+ }
+ .banner h2 span{
+    font-size: 1.1em;
+ }
+ nav{
+    background-color: #f4f4f4;
+    padding: 20px; 
+    position: sticky;
+    top: 148px;
+ } 
+ nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+ }
+ nav li a{
+    text-decoration: none;
+    color: gray;
+ }
+ nav li a.join{
+    color: red;
+ }
+ main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+ }
+ article h2{
+    color: #f63434;
+    font-size: 35px;
+ }
+ article p{
+    line-height: 2em;
+    color: #4b4b4b;
+ }
+ .images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+ }
+ .images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+ }
+ .images li img{
+    max-width: 100%;
+ }
+ section.join{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+ }
+ .join h2{
+    font-size: 36px;
+    
+ }  
+ form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 15px;
+    border: 4px solid white
+    
+ }
+ .copyright{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px;
+ }
+
+ /* pseudo classes */
+ nav li a:hover{
+    text-decoration: underline;
+ }
+ .images li img:hover{
+    position: relative;
+    top: -4px
+ }
+ form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline: none;
+ }
+ form input:valid{
+    border: 4px solid green;
+ }
+ p::first-line{
+   font-weight: bold;
+   font-size: 1.2em;
+ }
+ section.join p::first-letter{
+   font-size: 1.5em;
+ }
+ article p::after{
+   content: '...';
+ }
+ p::selection{
+   background-color: red;
+   color: white;
+ }
+ /* RESPONSIVE DESIGN */
+ @media screen and (max-width: 1000px){
+   .banner .welcome h2{
+      font-size: 40px;
+   }
+      
+ }
+ @media screen and (max-width: 800px){
+   .banner .welcome h2{
+      font-size: 30px;
+ } 
+ nav li a{
+   font-size: 18px;
+ }
+ .banner .welcome{
+   padding: 30px 20px 30px 20px;
+ }
+ }
+ @media screen and (max-width: 700px){
+   .banner .welcome{
+      position: relative;
+    }
+    .banner .welcome br{
+      display: none;
+    }
+    .banner .welcome span{
+      font-size: 24px;
+    }
+    nav li {
+      font-size: 20px;
+      width: 100;
+      display: block;
+      margin: 20px 0;
+      
+    }
+    .images li{
+      width: 100%;
+      margin: 20px auto;
+      display: block;
+    }
+    header{
+      position: relative;
+    }
+    nav{
+      top: 0;
+    }
+    article h2{
+      font-size: 30px;
+    }
+ }
+ @media screen and (max-width: 700px){
+   article h2{
+      font-size: 20px;
+   }
+}
+ 
+ 
+ 
+ 
